@@ -1,0 +1,66 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: "Open Sans", Futura, Arial, sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media screen and (min-width: 768px) {
+    body {
+      font-size: 18px; /* Increase font size for medium-sized screens */
+    }
+  }
+  
+  /* Adjust font size for large screens (e.g., desktops) */
+  @media screen and (min-width: 1024px) {
+    body {
+      font-size: 20px; /* Further increase font size for large screens */
+    }
+  }
+  
+  /* Adjust font size for extra-large screens (e.g., large desktops) */
+  @media screen and (min-width: 1440px) {
+    body {
+      font-size: 22px; /* Increase font size for extra-large screens */
+    }
+  }
+  

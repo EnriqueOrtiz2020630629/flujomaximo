@@ -1,0 +1,90 @@
+.tabla-container {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabla-cont {
+    overflow-x: auto;
+}
+
+.tabla-cabeza {
+    text-align: center;
+    font-size: 1.5em;
+    background-color: #6c6b6d;
+}
+
+.cabeza-letra {
+    font-weight: bold;
+}
+
+.tabla tr:nth-child(even) {
+    background-color: #9dc3ae; /* Lighter background color for even rows */
+}
+
+/* Target odd rows */
+.tabla tr:nth-child(odd) {
+    background-color: #ffffff; /* Default background color for odd rows */
+}
+
+.btn-container {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-width: 300px;
+}
+.btn-agregar {
+    background-color: green;
+    margin-left: 20px;
+}
+
+.btn-calcular {
+    background-color: #140ddb;
+    width: auto;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.btn-agregar,
+.btn-quitar {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.btn-agregar,
+.btn-quitar,
+.btn-calcular {
+    color: white;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.btn-quitar {
+    background-color: red;
+}
+.cabeza-letra,
+.letra-fila,
+input {
+    text-align: center;
+    font-size: 1em;
+}
+
+input {
+    border: none;
+    background-color: transparent;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}

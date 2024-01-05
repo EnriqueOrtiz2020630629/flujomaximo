@@ -1,0 +1,11 @@
+.header-flujo{
+    font-weight: bold;
+}
+
+.flujo-container {
+    background-color: paleturquoise;
+    width: fit-content;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
