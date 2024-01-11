@@ -1,13 +1,14 @@
 .tabla-container {
-    margin: 10px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.tabla-cont {
+.tabla-cont{
     overflow-x: auto;
+    max-width: 100vw;
 }
+
 
 .tabla-cabeza {
     text-align: center;
@@ -20,12 +21,11 @@
 }
 
 .tabla tr:nth-child(even) {
-    background-color: #9dc3ae; /* Lighter background color for even rows */
+    background-color: #9dc3ae;
 }
 
-/* Target odd rows */
 .tabla tr:nth-child(odd) {
-    background-color: #ffffff; /* Default background color for odd rows */
+    background-color: #ffffff;
 }
 
 .btn-container {
